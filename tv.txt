@@ -63,6 +63,10 @@ cctv17,http://live-wcloud-cdn.ysp.cctv.cn/tlivecloud-cdn.ysp.cctv.cn/001/2000204
 cctv17,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000056836&livemode=1&stbId=00000250001B50800001B401420BC069&userToken=&usergroup=
 cctv17,http://183.207.248.71:80/cntv/live1/CCTV-17/cctv-17
 cctv17,http://httpdvb.slave.homed.hrtn.net/playurl?playtype=live&protocol=hls&accesstoken=R5D22D2B7U309E0093K7735BBEDIAC2DC601PBM3187915V10453Z6B7EDWE3620470C71&&playtoken=&programid=4200000169.m3u8
+BloombergTV,http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/index_2200_av-p.m3u8
+NationGeographyWild,http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/05.m3u8
+NationGeographyPeople,http://livecdnh1.tvanywhere.ae/hls/nat_geo_people/05.m3u8
+History2,http://livecdnh1.tvanywhere.ae:80/hls/h2/05.m3u8
 CETV1,http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225905/1.m3u8
 CGTN,http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225866/1.m3u8
 CGTN,http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225867/1.m3u8
