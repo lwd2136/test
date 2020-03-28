@@ -82,14 +82,6 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 
 ^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url script-response-body eval_script.js
 
-^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body eval_script.js
-
-^https:\/\/api\.gyrosco\.pe\/v1\/account\/$ url script-response-body eval_script.js
-
-https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body eval_script.js
-
-^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body eval_script.js
-
 ^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip* url script-response-body eval_script.js
 
 ^https:\/\/api\.unfold\.app\/v1\/ios\/receipts$ url script-response-body eval_script.js
@@ -152,8 +144,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body e
 
 ^https:\/\/api\.pushover\.net\/1\/messages\.json* url script-response-body eval_script.js
 
-^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body eval_script.js
-
 ^https:\/\/api\.overhq\.com\/(user\/token\/refresh$|subscription\/verifyReceipt$) url script-response-body eval_script.js
 
 ^https:\/\/receipt-validator\.herewetest\.com\/apple\/verifyTransaction$ url script-response-body eval_script.js
@@ -176,11 +166,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body e
 
 ^https:\/\/api\.shred\.app\/verifyReceipt$ url script-response-body eval_script.js
 
-^https?:\/\/mp\.bybutter\.com\/mood\/(official-templates|privileges) url script-response-body eval_script.js
-
 ^https:\/\/subscription\.grammarly\.com\/api\/v1$ url script-response-body eval_script.js
-
-^https:\/\/splice\.oracle\.\w+\.com\/devices\/me url script-response-body eval_script.js
 
 ^https:\/\/planner5d\.com\/api\/sets url script-response-body eval_script.js
 
