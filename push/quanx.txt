@@ -260,6 +260,8 @@ https://api.shimo.im/users/ url script-response-body eval_script.js
 
 ^https?:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php url script-response-body eval_script.js
 
+https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-body eval_script.js
+
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body eval_script.js
 
 ^http://amdc\.m\.taobao\.com/amdc/mobileDispatch url script-response-body eval_script.js
