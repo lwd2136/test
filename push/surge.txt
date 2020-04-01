@@ -260,6 +260,8 @@ http-response https://api.shimo.im/users/ requires-body=1,script-path=eval_scrip
 
 http-response ^https?:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php requires-body=1,script-path=eval_script.js
 
+http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) requires-body=1,script-path=eval_script.js
+
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) requires-body=1,script-path=eval_script.js
 
 http-response ^http://amdc\.m\.taobao\.com/amdc/mobileDispatch requires-body=1,script-path=eval_script.js
