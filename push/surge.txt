@@ -132,6 +132,8 @@ http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1,script
 
 http-response ^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) requires-body=1,script-path=eval_script.js
 
+http-response ^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ requires-body=1,script-path=eval_script.js
+
 http-response ^https:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get requires-body=1,script-path=eval_script.js
 
 http-response ^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ requires-body=1,script-path=eval_script.js
