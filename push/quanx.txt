@@ -132,6 +132,8 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 
 ^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body eval_script.js
 
+^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body eval_script.js
+
 ^https:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get url script-response-body eval_script.js
 
 ^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ url script-response-body eval_script.js
