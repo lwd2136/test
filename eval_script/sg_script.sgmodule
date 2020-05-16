@@ -42,11 +42,15 @@ eval_script.js = type=http-response,requires-body=1,pattern=https://api.bilibili
 
 eval_script.js = type=http-response,requires-body=1,pattern=https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key,script-path=eval_script.js
 
-eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post),script-path=eval_script.js
+eval_script.js = type=http-response,requires-body=1,pattern=^https?+:\/\/[\w-]++\.amemv\.com\/aweme\/v\d\/aweme\/post\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?+:\/\/[\w-]++\.amemv\.com\/aweme\/v\d\/feed\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?+:\/\/[\w-]++\.amemv\.com\/aweme\/v\d\/follow\/feed\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?+:\/\/[\w-]++\.amemv\.com\/aweme\/v\d\/nearby\/feed\/,script-path=eval_script.js
 
 eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),script-path=eval_script.js
-
-eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData),script-path=eval_script.js
 
 eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/.*\/getGlobalData,script-path=eval_script.js
 
@@ -317,3 +321,5 @@ eval_script.js = type=http-response,requires-body=1,pattern=^https\:\/\/api\.gao
 eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.meiyan\.com\/iap\/verify\.json,script-path=eval_script.js
 
 eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/bea\.sportq\.com\/SFitWeb\/sfit\/getUserBaseInfo,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath,script-path=eval_script.js
